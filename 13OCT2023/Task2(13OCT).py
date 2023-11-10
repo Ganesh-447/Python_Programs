@@ -28,5 +28,5 @@ print(f" The maximum of three number entered by the user are {max}")
 
 
 # Develop a Python script that calculates the square and cube of a given number.
-a = int(input("Enter the number"))
+a = int(input("Enter the number to calculate"))
 print(f"square and cube of a given number are {a**2} and {a**3}")
