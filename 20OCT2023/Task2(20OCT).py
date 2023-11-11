@@ -1,23 +1,23 @@
-# number = input("enter input")
-# result = 0
-#
-# for i in number:
-#     digit = int(i)
-#     result += digit
-# print(result)
+number = input("enter input")
+result = 0
+
+for i in number:
+    digit = int(i)
+    result += digit
+print(result)
 
 
 # using Function
-# def sum_of_integers(n):
-#     result = 0
-#     for i in n:
-#         digit = int(i)
-#         result += digit
-#     return result
-#
-#
-# a = input("enter your input")
-# print(sum_of_integers(a))
+def sum_of_integers(n):
+    result = 0
+    for i in n:
+        digit = int(i)
+        result += digit
+    return result
+
+
+a = input("enter your input")
+print(sum_of_integers(a))
 
 #other method
 
