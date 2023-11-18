@@ -1,0 +1,5 @@
+input_str = input("enter ")
+list_1 = list(map(int,input_str.split()))
+print(type(list_1[0]))
+print(type(list_1))
+print(list_1)
